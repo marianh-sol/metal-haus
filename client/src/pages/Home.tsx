@@ -99,14 +99,13 @@ export default function Home() {
       </section>
 
       {/* Nosotros Section */}
-      <section 
-        id="nosotros" 
+      <section
+        id="nosotros"
         ref={nosotrosAnim.ref}
-        className={`py-24 bg-background metal-grain transition-all duration-1000 ${
-          nosotrosAnim.isVisible 
-            ? 'opacity-100 translate-y-0' 
+        className={`py-24 bg-background metal-grain transition-all duration-1000 ${nosotrosAnim.isVisible
+            ? 'opacity-100 translate-y-0'
             : 'opacity-0 translate-y-12'
-        }`}
+          }`}
       >
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -168,13 +167,12 @@ export default function Home() {
       </section>
 
       {/* Valores Section */}
-      <section 
+      <section
         ref={valoresAnim.ref}
-        className={`py-24 bg-secondary diagonal-cut-top diagonal-cut-bottom metal-grain transition-all duration-1000 ${
-          valoresAnim.isVisible 
-            ? 'opacity-100 translate-y-0' 
+        className={`py-24 bg-secondary diagonal-cut-top diagonal-cut-bottom metal-grain transition-all duration-1000 ${valoresAnim.isVisible
+            ? 'opacity-100 translate-y-0'
             : 'opacity-0 translate-y-12'
-        }`}
+          }`}
       >
         <div className="container">
           <div className="text-center mb-16">
@@ -235,14 +233,13 @@ export default function Home() {
       </section>
 
       {/* Servicios Section */}
-      <section 
-        id="servicios" 
+      <section
+        id="servicios"
         ref={serviciosAnim.ref}
-        className={`py-24 bg-background metal-grain transition-all duration-1000 ${
-          serviciosAnim.isVisible 
-            ? 'opacity-100 translate-y-0' 
+        className={`py-24 bg-background metal-grain transition-all duration-1000 ${serviciosAnim.isVisible
+            ? 'opacity-100 translate-y-0'
             : 'opacity-0 translate-y-12'
-        }`}
+          }`}
       >
         <div className="container">
           <div className="text-center mb-16">
@@ -305,14 +302,13 @@ export default function Home() {
       </section>
 
       {/* Calidad Section */}
-      <section 
-        id="calidad" 
+      <section
+        id="calidad"
         ref={calidadAnim.ref}
-        className={`py-24 bg-secondary diagonal-cut-top metal-grain transition-all duration-1000 ${
-          calidadAnim.isVisible 
-            ? 'opacity-100 translate-y-0' 
+        className={`py-24 bg-secondary diagonal-cut-top metal-grain transition-all duration-1000 ${calidadAnim.isVisible
+            ? 'opacity-100 translate-y-0'
             : 'opacity-0 translate-y-12'
-        }`}
+          }`}
       >
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -393,14 +389,13 @@ export default function Home() {
       </section>
 
       {/* Contacto Section */}
-      <section 
-        id="contacto" 
+      <section
+        id="contacto"
         ref={contactoAnim.ref}
-        className={`py-24 bg-background metal-grain transition-all duration-1000 ${
-          contactoAnim.isVisible 
-            ? 'opacity-100 translate-y-0' 
+        className={`py-24 bg-background metal-grain transition-all duration-1000 ${contactoAnim.isVisible
+            ? 'opacity-100 translate-y-0'
             : 'opacity-0 translate-y-12'
-        }`}
+          }`}
       >
         <div className="container">
           <div className="text-center mb-16">
@@ -447,15 +442,21 @@ export default function Home() {
                   <div className="w-12 h-12 bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Mail className="w-6 h-6 text-primary" />
                   </div>
-                  <div>
+                  <div className="flex flex-col">
                     <h3 className="heading-text text-lg text-foreground mb-2 uppercase">
                       Email
                     </h3>
                     <a
-                      href="mailto:Ventas@mineralesymetales.com"
+                      href="mailto:direccion@metalhaus.mx"
+                      className="text-muted-foreground hover:text-primary transition-colors break-all mb-1"
+                    >
+                      direccion@metalhaus.mx
+                    </a>
+                    <a
+                      href="mailto:ventas@metalhaus.mx"
                       className="text-muted-foreground hover:text-primary transition-colors break-all"
                     >
-                      Ventas@mineralesymetales.com
+                      ventas@metalhaus.mx
                     </a>
                   </div>
                 </div>
@@ -493,13 +494,12 @@ export default function Home() {
       </section>
 
       {/* Galería Section */}
-      <section 
+      <section
         ref={galeriaAnim.ref}
-        className={`py-24 bg-muted/30 metal-grain transition-all duration-1000 ${
-          galeriaAnim.isVisible 
-            ? 'opacity-100 translate-y-0' 
+        className={`py-24 bg-muted/30 metal-grain transition-all duration-1000 ${galeriaAnim.isVisible
+            ? 'opacity-100 translate-y-0'
             : 'opacity-0 translate-y-12'
-        }`}
+          }`}
       >
         <div className="container">
           <div className="text-center mb-16">

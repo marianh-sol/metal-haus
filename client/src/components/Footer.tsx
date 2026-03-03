@@ -40,13 +40,22 @@ export default function Footer() {
                 <Phone size={16} className="text-primary" />
                 <span>4441-84-07-14</span>
               </a>
-              <a
-                href="mailto:Ventas@mineralesymetales.com"
-                className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors group"
-              >
-                <Mail size={16} className="text-primary" />
-                <span>Ventas@mineralesymetales.com</span>
-              </a>
+              <div className="space-y-2">
+                <a
+                  href="mailto:direccion@metalhaus.mx"
+                  className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors group"
+                >
+                  <Mail size={16} className="text-primary" />
+                  <span>direccion@metalhaus.mx</span>
+                </a>
+                <a
+                  href="mailto:ventas@metalhaus.mx"
+                  className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors group"
+                >
+                  <Mail size={16} className="text-primary" />
+                  <span>ventas@metalhaus.mx</span>
+                </a>
+              </div>
               <div className="flex items-start gap-3 text-sm text-muted-foreground">
                 <MapPin size={16} className="text-primary mt-0.5 flex-shrink-0" />
                 <span>
